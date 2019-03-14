@@ -1,0 +1,101 @@
+.ilkStyle{
+background: url(https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+min-height: 30rem;
+background-repeat:no-repeat;
+background-size:cover;
+padding-top:8rem;
+text-align: center;
+
+}
+.ilkStyle h1{
+    font-size:80px;
+    padding-top:120px;
+    padding-bottom:10px;
+    
+}
+.link{
+    margin-top: 20px;
+    padding-top:60px;
+}
+.link a{
+padding:20px 35px;
+background: #1d809f;
+border-radius:5px;
+color:white;
+}
+.link a:hover{
+    background: #007bff;;
+}
+.orta{
+    text-align:center;
+  padding: 100px 0;
+}
+.orta h1{
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.link2{
+    margin-top: 20px;
+    padding-top:60px;
+}
+.link2 a{
+    padding:20px 35px;
+    background: #212529;
+    border-radius:5px;
+    color:white;
+}
+.third{
+    background: #1d809f;
+    padding-top:150px;
+    text-align: center;
+}
+.third h3{
+    color:#ecb807;
+}
+.third h1{
+    font-size: 50px;
+    color:white;
+}
+.services-box .icons{
+    background:white;
+    padding:30px;
+    border-radius:80px;
+    width:13%;
+    text-align: center;
+    margin:0 auto;
+    
+    
+}
+.services{
+    background:#1d809f;
+    height:300px;
+    padding-top: 50px;
+}
+.services-box h4{
+    padding-top: 10px;
+    color: white;
+}
+.services-box p{
+    padding-top:10px;
+    color: white;
+}
+.portbox{
+    height:305px;
+    
+    background: green
+}
+.portbox:hover{
+    animation: kicilme 1s infinite;
+}
+@keyframes kicilme {
+    0% {
+        transform:scale(1);
+    }
+    100% {
+        transform:scale(0.8);
+    }
+}
+.services-box i{
+    color: #1d809f
+}
